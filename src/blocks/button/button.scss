@@ -1,0 +1,29 @@
+.button {
+  min-width: 99px;
+  min-height: 44px;
+  border-radius: 22px;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+
+  &_color_white {
+    background-color: white;
+    border: 2px solid #bc9cff;
+    color: #bc9cff;
+  }
+
+  &_color_white_faded {
+    border: 2px solid rgba(188, 156, 255, 0.5);
+  }
+
+  &_color_purple {
+    background: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+    color: #fff;
+  }
+
+  &_color_purple_faded {
+    opacity: 0.5;
+  }
+}
